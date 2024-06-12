@@ -1,0 +1,23 @@
+name: text_diff
+description: "Text Diff"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.5.0-160.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  diff_match_patch: ^0.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^5.0.1
+
+flutter:
+  uses-material-design: true
